@@ -1,0 +1,123 @@
+/*
+Author: Carter Brown, Ally Chitwood, Nathan Simpson, Will Greenway, Dan Greer
+
+CSS Stylesheet describing James W. Davis' site.
+ */
+
+body {
+	background-color: #666666;
+	color: white;
+	font-family: Cambria, sans-serif;
+	padding: 2%;
+}
+
+.footer {
+	position: relative;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: white;
+	color: #bb0000;
+	font-size: 0.85em;
+	border: 2px solid black;
+}
+
+.footer img {
+	background-color: white;
+	float: left;
+	padding: 31.5px;
+}
+
+.footer a {
+	color: #666666;
+}
+
+.footerText {
+	margin-left: 350px;
+}
+
+.navbar {
+	position: relative;
+}
+
+.navbar ul {
+	padding: 0;
+	margin: 0;
+	background-color: #bb0000;
+	list-style-type: none;
+	overflow: hidden;
+}
+
+.navbar li {
+	float: left;
+	border-right: 1px solid;
+	color: white;
+}
+
+.navbar li:hover {
+	background-color: white;
+	color: black;
+}
+
+.navbar li a {
+	color: inherit;
+	text-decoration: none;
+	text-align: center;
+	padding: 14px 16px;
+}
+
+.content {
+	background-color: white;
+	color: black;
+	padding: 3px;
+	line-height: 1.7;
+	border-style: solid;
+}
+
+.content.caption {
+	text-align: center;
+	width: 590px;
+	padding: 3px;
+	font-size: 0.8em;
+	border-width: 2px;
+}
+
+.content.appointments, .content.noteworthy {
+	font-size: 0.875em;
+}
+
+.content table {
+	font-size: 1.075em;
+	width: 625px;
+}
+
+.content th {
+	text-align:left;
+	border-bottom-style: solid;
+}
+
+.currentStudent {
+	width: 450px;
+	height: 350px;
+	float: right;
+	border: solid black;
+	margin: 10px;
+	position: static;
+}
+
+.profileImg {
+	width: 250px;
+	height: 250px;
+	float: left;
+	border: solid black;
+	margin: 10px;
+}
+
+.images {
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+.images img {
+	width: 600px;
+}

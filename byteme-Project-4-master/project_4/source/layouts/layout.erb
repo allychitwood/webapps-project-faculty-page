@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<!--
+Author: Carter Brown
+
+Layout for each web page.
+-->
+
+  <head>
+    <meta charset="utf-8">
+    <title><%= current_page.data.title || "James W. Davis" %></title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/site.css"/>
+  </head>
+  <body>
+    <%= partial "navbar" %>
+    <%= yield %>
+    <%= partial "footer" %>
+  </body>
+
+</html>
